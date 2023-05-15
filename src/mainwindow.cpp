@@ -1,7 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "changepalette.h"
-#include "supportfuncs.h"
 #include "dlgexportscreen.h"
 #include "fdlgloadbiblio.h"
 #include "dlgexchangetiles.h"

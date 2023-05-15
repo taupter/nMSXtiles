@@ -71,3 +71,8 @@ build-*
 # --------
 *.dll
 *.exe
+
+# macOS builds
+build-*-Debug
+build-*Release
+
