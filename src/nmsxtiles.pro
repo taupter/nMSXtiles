@@ -182,3 +182,14 @@ OTHER_FILES += \
 #--------------------------------------------------------------------------------
 #                                   END
 #--------------------------------------------------------------------------------
+
+DISTFILES += \
+    android/AndroidManifest.xml \
+    android/build.gradle \
+    android/res/values/libs.xml \
+    android/res/xml/qtprovider_paths.xml
+
+contains(ANDROID_TARGET_ARCH,x86_64) {
+    ANDROID_PACKAGE_SOURCE_DIR = \
+        $$PWD/../nmsxtiles.pro
+}
